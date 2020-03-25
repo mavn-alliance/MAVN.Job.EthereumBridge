@@ -1,0 +1,85 @@
+EthereumBridgeService:
+  Db:
+    LogsConnectionString:
+      settings-key: EthereumBridgeService-LogsConnectionString
+      types:
+        - AzureTableStorage
+  Blockchain:
+    PublicTransactionNodeUrl:
+      settings-key: EthereumBridgeJob-PublicTransactionNodeUrl
+    PublicBlockchainTokenContractAddress:
+      settings-key: PublicBlockchainTokenContractAddress
+    BlockConfirmationLevel:
+      settings-key: EthereumBridgeJob-BlockConfirmationLevel
+  Cache:
+    BalanceExpirationPeriod:
+      settings-key: EthereumBridgeService-Cache-BalanceExpirationPeriod
+  Redis:
+    InstanceName:
+      settings-key: EthereumBridgeService-Redis-InstanceName
+    Configuration:
+      settings-key: EthereumBridgeService-Redis-Configuration
+
+EthereumBridgeJob:
+  Db:
+    DataConnString:
+      settings-key: EthereumBridgeJob-DataConnString
+    LogsConnString:
+      settings-key: EthereumBridgeJob-LogsConnString
+      types:
+        - AzureTableStorage
+  Blockchain:
+    PublicBlockchainGatewayContractAddress:
+      settings-key: PublicBlockchainGatewayContractAddress
+    PublicBlockchainTokenContractAddress:
+      settings-key: PublicBlockchainTokenContractAddress
+    PrivateBlockchainGatewayContractAddress:
+      settings-key: PrivateBlockchainGatewayContractAddress
+    PrivateBlockchainTokenContractAddress:
+      settings-key: PrivateBlockchain-TokenContractAddress
+    MasterWalletAddress:
+      settings-key: EthereumBridgeJob-MasterWalletAddress
+    PublicTransactionNodeUrl:
+      settings-key: EthereumBridgeJob-PublicTransactionNodeUrl
+    InternalTransactionNodeUrl:
+      settings-key: EthereumBridgeJob-InternalTransactionNodeUrl
+    GasLimit:
+      settings-key: EthereumBridgeJob-GasLimit
+    GasPrice:
+      settings-key: EthereumBridgeJob-GasPrice
+    BlockConfirmationLevel:
+      settings-key: EthereumBridgeJob-BlockConfirmationLevel
+    BlockBatchSize:
+      settings-key: EthereumBridgeJob-BlockBatchSize
+      types:
+        - Optional
+    MasterWalletBalanceWarningLevelInWei:
+      settings-key: EthereumBridgeJob-MasterWalletBalanceWarningLevelInWei
+  RabbitMq:
+    RabbitMqConnectionString:
+      settings-key: WalletManagmentRabbitMQ
+      types:
+        - RabbitMq
+  HangedOperationsJobIdlePeriod:
+    settings-key: EthereumBridgeJob-HangedOperationsJobIdlePeriod
+  BroadcastedTransactionsStatusCheckJobIdlePeriod:
+    settings-key: EthereumBridgeJob-BroadcastedTransactionsStatusCheckJobIdlePeriod
+  TotalSupplySyncPeriod:
+    settings-key: EthereumBridgeJob-TotalSupplySyncPeriod
+
+QuorumTransactionSignerService:
+  ServiceUrl:
+    settings-key: QuorumTransactionSignerServiceUrl
+
+SlackNotifications:
+  AzureQueue:
+    ConnectionString:
+      settings-key: SlackNotificationsConnString
+      types:
+        - AzureTableStorage
+    QueueName:
+      settings-key: SlackQueueName
+      
+MonitoringServiceClient:
+  MonitoringServiceUrl:
+    settings-key: MonitoringServiceUrl
