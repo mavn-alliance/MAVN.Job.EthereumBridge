@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using Common;
 using Common.Log;
 using Lykke.Common.Log;
+using MAVN.PublicBlockchain.Services;
+
 
 namespace MAVN.Job.EthereumBridge.Services
 {

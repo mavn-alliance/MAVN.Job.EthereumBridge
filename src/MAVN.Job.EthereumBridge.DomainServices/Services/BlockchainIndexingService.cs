@@ -6,11 +6,15 @@ using Common.Log;
 using Falcon.Numerics;
 using Lykke.Common.Log;
 using Lykke.RabbitMqBroker.Publisher;
+using MAVN.Job.EthereumBridge.Contract;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.Domain.Services;
+using MAVN.PrivateBlockchain.Definitions;
+using MAVN.PublicBlockchain.Definitions;
 using Nethereum.ABI.FunctionEncoding;
 using Nethereum.Contracts;
 using Nethereum.RPC.Eth.DTOs;
+using SeizeFromEventDTO = MAVN.PublicBlockchain.Definitions.SeizeFromEventDTO;
 
 namespace MAVN.Job.EthereumBridge.DomainServices.Services
 {

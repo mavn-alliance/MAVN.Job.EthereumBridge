@@ -4,6 +4,8 @@ using Common;
 using Common.Log;
 using Lykke.Common.Log;
 using MAVN.Job.EthereumBridge.Domain.Services;
+using MAVN.PublicBlockchain.Services;
+
 
 namespace MAVN.Job.EthereumBridge.Services
 {

@@ -11,6 +11,8 @@ using Microsoft.Extensions.Caching.Redis;
 using Nethereum.Contracts.Services;
 using Nethereum.JsonRpc.WebSocketClient;
 using Nethereum.Web3;
+using MAVN.PublicBlockchain.Services;
+
 
 namespace MAVN.Service.EthereumBridge
 {
