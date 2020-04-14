@@ -5,6 +5,7 @@ using Lykke.RabbitMqBroker.Subscriber;
 using Lykke.Service.CrossChainTransfers.Contract;
 using Lykke.Service.CrossChainWalletLinker.Contract.Linking;
 using Lykke.SettingsReader;
+using MAVN.Job.EthereumBridge.Contract;
 using MAVN.Job.EthereumBridge.DomainServices.RabbitMq.Subscribers;
 using MAVN.Job.EthereumBridge.Settings;
 using MAVN.Job.EthereumBridge.Settings.JobSettings;

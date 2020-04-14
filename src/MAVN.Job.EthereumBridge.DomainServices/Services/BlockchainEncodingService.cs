@@ -1,6 +1,7 @@
 ﻿using System.Numerics;
 using Falcon.Numerics;
 using MAVN.Job.EthereumBridge.Domain.Services;
+using MAVN.PublicBlockchain.Definitions;
 using Nethereum.ABI.FunctionEncoding;
 using Nethereum.Contracts;
 

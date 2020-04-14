@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using Falcon.Numerics;
 using MAVN.Job.EthereumBridge.Domain.Services;
 using Microsoft.Extensions.Caching.Distributed;
+using MAVN.PublicBlockchain.Services;
 using Nethereum.RPC.Eth.DTOs;
 
 namespace MAVN.Job.EthereumBridge.DomainServices.Services
