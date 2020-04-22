@@ -11,7 +11,7 @@ env:
   RELEASE_JOB: true
   RELEASE_SERVICE: true
   
-  CLIENT_PROJECT: ./client/MAVN.Job.EthereumBridge.Client/MAVN.Job.EthereumBridge.Client.csproj
+  CLIENT_PROJECT: ./client/MAVN.Service.EthereumBridge.Client/MAVN.Service.EthereumBridge.Client.csproj
   CONTRACT_PROJECT: ./contract/MAVN.Job.EthereumBridge.Contract/MAVN.Job.EthereumBridge.Contract.csproj
   JOB_DOCKER_IMAGE: ethereum-bridge-job
   JOB_PROJECT: ./src/MAVN.Job.EthereumBridge/MAVN.Job.EthereumBridge.csproj
