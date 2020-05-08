@@ -2,8 +2,8 @@
 using JetBrains.Annotations;
 using Lykke.RabbitMqBroker.Publisher;
 using Lykke.RabbitMqBroker.Subscriber;
-using Lykke.Service.CrossChainTransfers.Contract;
-using Lykke.Service.CrossChainWalletLinker.Contract.Linking;
+using MAVN.Service.CrossChainTransfers.Contract;
+using MAVN.Service.CrossChainWalletLinker.Contract.Linking;
 using Lykke.SettingsReader;
 using MAVN.Job.EthereumBridge.Contract;
 using MAVN.Job.EthereumBridge.DomainServices.RabbitMq.Subscribers;

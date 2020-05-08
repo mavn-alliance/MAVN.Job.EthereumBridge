@@ -2,7 +2,7 @@
 using Common.Log;
 using Lykke.Common.Log;
 using Lykke.RabbitMqBroker.Subscriber;
-using Lykke.Service.CrossChainWalletLinker.Contract.Linking;
+using MAVN.Service.CrossChainWalletLinker.Contract.Linking;
 using MAVN.Job.EthereumBridge.Domain.RabbitMq.Handlers;
 
 namespace MAVN.Job.EthereumBridge.DomainServices.RabbitMq.Subscribers

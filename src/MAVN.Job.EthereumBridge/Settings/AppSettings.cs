@@ -1,5 +1,5 @@
 ﻿using Lykke.Sdk.Settings;
-using Lykke.Service.QuorumTransactionSigner.Client;
+using MAVN.Service.QuorumTransactionSigner.Client;
 using MAVN.Job.EthereumBridge.Settings.JobSettings;
 
 namespace MAVN.Job.EthereumBridge.Settings
