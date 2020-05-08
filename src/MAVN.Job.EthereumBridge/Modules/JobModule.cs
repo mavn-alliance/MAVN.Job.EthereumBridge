@@ -3,7 +3,7 @@ using JetBrains.Annotations;
 using Lykke.Common;
 using Lykke.Sdk;
 using Lykke.Sdk.Health;
-using Lykke.Service.QuorumTransactionSigner.Client;
+using MAVN.Service.QuorumTransactionSigner.Client;
 using Lykke.SettingsReader;
 using MAVN.Job.EthereumBridge.Domain.RabbitMq.Handlers;
 using MAVN.Job.EthereumBridge.Domain.Services;

@@ -1,7 +1,7 @@
 ﻿using System.Numerics;
 using System.Threading.Tasks;
 using Common.Log;
-using Falcon.Numerics;
+using MAVN.Numerics;
 using Lykke.Common.Log;
 using MAVN.Job.EthereumBridge.Domain.RabbitMq.Handlers;
 using MAVN.Job.EthereumBridge.Domain.Services;

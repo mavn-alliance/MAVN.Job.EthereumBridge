@@ -4,14 +4,14 @@
     <Version>1.0.0</Version>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Falcon.Service.CrossChainTransfers.Contract" Version="2.2.0" />
-    <PackageReference Include="Falcon.Service.CrossChainWalletLinker.Contract" Version="1.0.8" />
-    <PackageReference Include="Falcon.Service.QuorumTransactionSigner.Client" Version="1.2.0" />
     <PackageReference Include="Lykke.Common.MsSql" Version="2.3.0" />
     <PackageReference Include="Lykke.RabbitMqBroker" Version="7.13.1" />
     <PackageReference Include="MAVN.PrivateBlockchain.MVNToken" Version="1.0.0-beta.1" />
     <PackageReference Include="MAVN.PublicBlockchain.MVNGateway" Version="1.0.0-beta.1" />
     <PackageReference Include="MAVN.PublicBlockchain.MVNToken" Version="1.0.0-beta.2" />
+    <PackageReference Include="MAVN.Service.CrossChainTransfers.Contract" Version="1.1.0" />
+    <PackageReference Include="MAVN.Service.CrossChainWalletLinker.Contract" Version="1.1.0" />
+    <PackageReference Include="MAVN.Service.QuorumTransactionSigner.Client" Version="1.0.1" />
     <PackageReference Include="Nethereum.JsonRpc.WebSocketClient" Version="3.7.1" />
     <PackageReference Include="Nethereum.Web3" Version="3.7.1" />
   </ItemGroup>

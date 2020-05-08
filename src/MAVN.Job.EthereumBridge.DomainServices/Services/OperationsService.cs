@@ -3,7 +3,7 @@ using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
 using Lykke.Common.MsSql;
-using Lykke.Service.QuorumTransactionSigner.Client;
+using MAVN.Service.QuorumTransactionSigner.Client;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.Domain.Services;
 using MAVN.Job.EthereumBridge.DomainServices.Extensions;
