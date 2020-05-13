@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using Lykke.Common.MsSql;
+using System.Threading.Tasks;
+using MAVN.Common.MsSql;
 
 namespace MAVN.Job.EthereumBridge.Domain.Repositories
 {

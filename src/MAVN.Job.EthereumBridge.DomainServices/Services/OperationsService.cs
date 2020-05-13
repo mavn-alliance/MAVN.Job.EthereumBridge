@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using MAVN.Service.QuorumTransactionSigner.Client;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.Domain.Services;

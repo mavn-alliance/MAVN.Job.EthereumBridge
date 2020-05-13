@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using MAVN.Job.EthereumBridge.Domain.Enums;
 using MAVN.Job.EthereumBridge.Domain.Models;
 

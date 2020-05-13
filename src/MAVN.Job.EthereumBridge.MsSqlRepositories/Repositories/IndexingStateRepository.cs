@@ -1,5 +1,5 @@
-﻿using System.Threading.Tasks;
-using Lykke.Common.MsSql;
+using System.Threading.Tasks;
+using MAVN.Common.MsSql;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.MsSqlRepositories.Constants;
 using MAVN.Job.EthereumBridge.MsSqlRepositories.Entities;
