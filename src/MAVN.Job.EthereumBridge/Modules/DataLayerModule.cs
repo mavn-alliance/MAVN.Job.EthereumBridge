@@ -1,6 +1,6 @@
-﻿using Autofac;
+using Autofac;
 using JetBrains.Annotations;
-using Lykke.Common.MsSql;
+using MAVN.Common.MsSql;
 using Lykke.SettingsReader;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.MsSqlRepositories;
