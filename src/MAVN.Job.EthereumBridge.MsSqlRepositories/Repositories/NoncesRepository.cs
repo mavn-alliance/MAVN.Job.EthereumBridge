@@ -1,7 +1,7 @@
-using System.Threading.Tasks;
-using MAVN.Common.MsSql;
+﻿using System.Threading.Tasks;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.MsSqlRepositories.Entities;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using Microsoft.EntityFrameworkCore;
 
 namespace MAVN.Job.EthereumBridge.MsSqlRepositories.Repositories

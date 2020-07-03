@@ -1,12 +1,12 @@
-using Autofac;
+﻿using Autofac;
 using JetBrains.Annotations;
-using MAVN.Common.MsSql;
 using Lykke.SettingsReader;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.MsSqlRepositories;
 using MAVN.Job.EthereumBridge.MsSqlRepositories.Repositories;
 using MAVN.Job.EthereumBridge.Settings;
 using MAVN.Job.EthereumBridge.Settings.JobSettings;
+using MAVN.Persistence.PostgreSQL.Legacy;
 
 namespace MAVN.Job.EthereumBridge.Modules
 {
@@ -22,7 +22,7 @@ namespace MAVN.Job.EthereumBridge.Modules
 
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterMsSql(
+            builder.RegisterPostgreSQL(
                 _settings.DataConnString,
                 connString => new EthereumBridgeContext(connString, false),
                 dbConn => new EthereumBridgeContext(dbConn));

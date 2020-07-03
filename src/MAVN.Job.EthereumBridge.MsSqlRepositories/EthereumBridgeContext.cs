@@ -1,12 +1,12 @@
-using System.Data.Common;
+﻿using System.Data.Common;
 using JetBrains.Annotations;
-using MAVN.Common.MsSql;
 using MAVN.Job.EthereumBridge.MsSqlRepositories.Entities;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using Microsoft.EntityFrameworkCore;
 
 namespace MAVN.Job.EthereumBridge.MsSqlRepositories
 {
-    public class EthereumBridgeContext : MsSqlContext
+    public class EthereumBridgeContext : PostgreSQLContext
     {
         private const string Schema = "ethereum_bridge";
 
@@ -33,7 +33,7 @@ namespace MAVN.Job.EthereumBridge.MsSqlRepositories
         {
         }
 
-        protected override void OnLykkeModelCreating(
+        protected override void OnMAVNModelCreating(
             ModelBuilder modelBuilder)
         {
             var operationEntityBuilder = modelBuilder.Entity<OperationEntity>();

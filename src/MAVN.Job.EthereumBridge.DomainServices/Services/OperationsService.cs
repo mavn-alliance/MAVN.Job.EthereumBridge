@@ -1,12 +1,12 @@
-using System;
+﻿using System;
 using System.Threading.Tasks;
 using Common.Log;
 using Lykke.Common.Log;
-using MAVN.Common.MsSql;
 using MAVN.Service.QuorumTransactionSigner.Client;
 using MAVN.Job.EthereumBridge.Domain.Repositories;
 using MAVN.Job.EthereumBridge.Domain.Services;
 using MAVN.Job.EthereumBridge.DomainServices.Extensions;
+using MAVN.Persistence.PostgreSQL.Legacy;
 using Nethereum.Hex.HexConvertors.Extensions;
 using Nethereum.RPC.Eth.Services;
 using Nethereum.Signer;
