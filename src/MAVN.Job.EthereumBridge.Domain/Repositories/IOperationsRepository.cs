@@ -1,9 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using MAVN.Common.MsSql;
 using MAVN.Job.EthereumBridge.Domain.Enums;
 using MAVN.Job.EthereumBridge.Domain.Models;
+using MAVN.Persistence.PostgreSQL.Legacy;
 
 namespace MAVN.Job.EthereumBridge.Domain.Repositories
 {

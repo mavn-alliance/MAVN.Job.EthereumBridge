@@ -1,5 +1,5 @@
-using System.Threading.Tasks;
-using MAVN.Common.MsSql;
+﻿using System.Threading.Tasks;
+using MAVN.Persistence.PostgreSQL.Legacy;
 
 namespace MAVN.Job.EthereumBridge.Domain.Repositories
 {
